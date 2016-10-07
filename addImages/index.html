@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>AddImages.js</title>
+	<link href="styles.css" rel="stylesheet" />
+</head>
+
+<body>
+
+	<h1>Add Images Plugin</h1>
+	
+	<div id="gallery" data-images></div>
+	
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>	
+	<script src="addImage.min.js"></script>
+<script>
+	$(document).ready(function(){
+			$('[data-images]').addImage('images/one.jpg,images/two.jpg,images/three.jpg');
+	});
+</script>
+</body>
+</html>	
+			

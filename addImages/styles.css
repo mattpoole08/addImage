@@ -1,0 +1,19 @@
+
+h1{
+
+	font-family:sans-serif;
+	text-align:center;
+	font-size:3em;
+	margin-top:25px;
+	margin-bottom:30px;
+}
+
+#gallery{
+	width:80%;
+	position:relative;
+	margin:0 auto;
+	margin-bottom:100px;
+}
+#gallery img{
+	width:100%;
+}
